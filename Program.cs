@@ -14,31 +14,31 @@ grade5=Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(" Enter Grade 6 "); 
 grade6=Convert.ToInt32(Console.ReadLine()); 
 
-average=grade1+grade2+grade3+grade4+grade5+grade6; 
+average=(grade1+grade2+grade3+grade4+grade5+grade6)/6; 
 
 switch (average)
 {
-    case >=70: 
+    case (>=70): 
         Console.WriteLine(" 1st "); 
         break; 
 
-    case >=60: 
+    case (>=60): 
         Console.WriteLine(" 2.1 ");
         break; 
 
-    case >=50: 
+    case (>=50): 
         Console.WriteLine(" 2.2 ");
         break; 
 
-    case >=40: 
+    case (>40): 
         Console.WriteLine(" 3rd ");
         break; 
 
-    case ==40: 
+    case (40): 
         Console.WriteLine(" Pass ");
         break; 
     
-    case <40: 
+    case (<40): 
         Console.WriteLine(" Fail ");
         break; 
 
