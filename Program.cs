@@ -14,6 +14,8 @@ grade5=Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(" Enter Grade 6 "); 
 grade6=Convert.ToInt32(Console.ReadLine()); 
 
+try 
+{
 average=(grade1+grade2+grade3+grade4+grade5+grade6)/6; 
 
 switch (average)
@@ -43,5 +45,5 @@ switch (average)
         break; 
 
 }
-
+}
 Console.ReadKey(); 
